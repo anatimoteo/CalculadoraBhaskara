@@ -1,5 +1,4 @@
-document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault();
+function calcula() {
 
     const a = parseFloat(document.getElementById('a').value);
     const b = parseFloat(document.getElementById('b').value);
@@ -17,4 +16,4 @@ document.getElementById('form').addEventListener('submit', function(event) {
         const x2 = (-b - Math.sqrt(delta)) / (2 * a);
         document.getElementById('result').innerHTML = `As soluções são x1 = ${x1} e x2 = ${x2}.`;
     }
-});
+}

@@ -1,13 +1,19 @@
 @charset "UTF-8";
-css
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@100;500;600;900&display=swap");
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
+    font-family:'Poppins', sans-serif;
+   
     align-items: center;
-    height: 100vh;
-    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 40px auto 40px auto;
 }
 
 form {
@@ -15,15 +21,15 @@ form {
     flex-direction: column;
     gap: 10px;
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 input {
     padding: 5px;
     font-size: 16px;
-    border: 1px solid #cccccc;
+    border: 1px solid #c9c7c7;
     border-radius: 3px;
 }
 
@@ -31,18 +37,18 @@ button {
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color:  #a457fc;
     color: #ffffff;
     border: none;
     border-radius: 3px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:  #6f3fa7;
 }
 
 #result {
     margin-top: 20px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500px;
 }
